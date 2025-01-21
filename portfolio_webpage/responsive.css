@@ -1,0 +1,35 @@
+#menu-btn{
+    display: block;
+}
+nav ul{
+    display: none;
+}
+#Signin{
+    display: none;
+}
+.hero-content{
+    width: 100%;
+    text-align: center;
+}
+.hero-content h1{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.hero-content p{
+    font-size: 0.90rem;
+}
+.btn2{
+    margin-top: 10px;
+}
+.heading{
+    text-align: center;
+}
+.form{
+    width: 100%;
+}
+form{
+    width: 100%;
+}
+.contact .container{
+    padding: 20px 30px;
+}

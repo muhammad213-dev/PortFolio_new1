@@ -1,0 +1,226 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 30px;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+nav ul li{
+    margin-left: 40px;
+}
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.3em;
+    padding: 5px;
+    transition: border 0.5s ease;
+    border-radius: 5px;
+}
+
+* a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.3em;
+}
+nav ul li a:hover{
+    border: 2px solid #fff;
+
+}
+#menu-btn{
+    display: none;
+    font-size: 1.1em;
+    cursor: pointer;
+}
+#Signin{
+    background: blue;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+.hero-section{
+    background-image: url("/media_queries/resources/bg-img.jpg");
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+.hero-section .container{
+    padding: 10% 80px;
+}
+.hero-content{
+    width: 700px;
+    color: #fff;
+}
+.hero-content h1{
+    font-size: 4rem;
+}
+.hero-content p{
+    margin-top: 10px;
+    font-size: 1.5rem;
+}
+.btn-section{
+    margin-top: 10px;
+}
+.btn1{
+    background-color: blue;
+    color: #fff;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    padding: 10px 10px;
+    border: none;
+    cursor: pointer;
+}
+.btn2{
+    background: transparent;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 1.5rem;
+    padding: 10px 10px;
+    border: 2px solid #fff;
+    cursor: pointer;
+    margin-left: 10px;
+}
+/* ___________PORTfolio______________ */
+.portfolio, .services .container{
+    padding: 40px 80px;
+}
+.heading{
+    font-size: 2rem;
+}
+.services-list, .work-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top:10px;
+}
+.service, .work{
+    flex-basis: 600px;
+    border-radius: 8px;
+    margin: 10px;
+    position: relative;
+    background-color: #333;
+    overflow: hidden;
+}
+.work img{
+    width: 100%;
+    height: 100%;
+}
+.service img{
+    width: 100%;
+}
+.ser-desc, .pro-desc{
+    position: absolute;
+    bottom: 9px;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.3);
+    text-align: center;
+    padding: 10px;
+    transition: height 0.5s ease;
+}
+.ser-desc, .pro-desc h3{
+    font-size: 1.5rem;
+}
+.ser-desc, .pro-desc p{
+    margin-top: 10px;
+    font-size: .90rem;
+}
+
+.pro-desc button{
+    padding: 10px 10px;
+    font-size: 1.3rem;
+    color: #333;
+    background:  #fff;
+    border-radius: 10px;
+    margin-top: 10px;
+    border: none;
+    transition: background 0.5s ease;
+    cursor: pointer;
+}
+.pro-desc button:hover{
+    background: blue;
+    color: #fff;
+}
+/* ___________SERVICES____________ */
+.ser-desc button{
+    padding: 10px 10px;
+    font-size: 1.3rem;
+    color: #333;
+    background:  #fff;
+    border-radius: 10px;
+    margin-top: 10px;
+    border: none;
+    transition: background 0.5s ease;
+    cursor: pointer;
+}
+.ser-desc button:hover{
+    background: blue;
+    color: #fff;
+}
+.ser-desc h3{
+    font-size: 1.5rem;
+}
+textarea{
+    resize: none;
+}
+.contact .container{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: #333;
+    padding: 80px 90px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    padding: 20px 20px;
+    border-radius: 10px;
+    box-shadow: 2px 3px rgba(0, 0, 0, 0.5);
+}
+form input{
+    width: 100%;
+    border-radius: 10px;
+    padding: 5px 10px;
+    margin: 10px;
+    font-size: 1.2rem;
+}
+form textarea {
+    width: 100%;
+    font-size: 1.2rem;
+    padding: 40px;
+    border-radius: 10px;
+}
+form button{
+    margin-top: 20px;
+    font-size: 1.3rem;
+    border-radius: 10px;
+    padding: 10px 20px;
+    background: blue;
+    color: #fff;
+    border: none;
+}
+.footer{
+    width: 100%;
+    padding: 20px 30px;
+    font-size: 1.5rem;
+    background: blueviolet;
+    color: #fff;
+    text-align: center;
+}
